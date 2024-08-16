@@ -1,0 +1,300 @@
+
+
+
+:root {
+    --primaryColor:#ff274b;
+    --secondaryColor:#0a061b;
+    --lightColor:#ffffff;
+    --bgcolor-1:#171a1c;
+    --bgcolor-2:#22282a;
+    --padding:8%;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "";
+    font-size: 16px;
+    color: var(--lightColor);
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bgcolor-1);
+    display: flex;
+    flex-direction: column;
+}
+span{
+    color: var(--primaryColor);
+}
+h2{
+    font-size: 2.2rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+}
+nav{
+   
+    padding-top:2.8rem;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav ul li{
+     list-style: none;
+     display: inline-block;
+     margin: 0.8rem 1.5rem;
+}
+nav ul li a{
+    color: var(--lightColor);
+    text-decoration: none;
+    text-transform: capitalize;
+transition: 0.4s;
+}
+nav ul li a:hover{
+    color: var(--primaryColor);
+
+}
+h1{
+    font-size: 3.65rem;
+    margin: 1.7rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.2rem;
+    letter-spacing: 0.12rem;
+    color: var(--lightColor);
+}
+h5{
+    font-size: 1.37rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+}
+/* -------------------------------------------------------------------
+                               Home section
+---------------------------------------------------------------------*/
+.contant{
+    flex-grow: 1;
+    padding: 0 var(--padding);
+display: flex;
+align-items: center;
+}
+.container-text{
+    position: relative;
+    bottom: 70px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: var(--primaryColor);
+    color: var(--lightColor);
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 8px;
+    transition: 0.4s;
+    display: inline-block;
+    margin: 30px;
+    border: 1px solid var(--primaryColor);
+}
+.btn:hover{
+    background-color: var(--bgcolor-2);
+    color: var(--lightColor);
+}
+.social{
+    margin-top: 0.7rem;
+}
+.social img {
+    margin-right: 2rem;
+    width: 2.2rem;
+transition: 0.4s;
+}
+.social img:hover{
+    transform: scale(1.2);
+}
+.con-image{
+  position: absolute;
+  align-self:center;
+  margin-top: 140px;
+}
+.home .con-image img{
+ position: absolute;
+
+}
+.shap{
+    width: 500px;
+  
+}
+.pic{
+    width: 300px;
+    transition: 0.5s;
+     margin-left: 60px;
+}
+.pic:hover{
+    transform: scale(1.1);
+   
+}
+/*----------------------------------------------------------------------------------
+                                About section
+--------------------------------------------------------------------------------*/
+
+.about{
+    background-color: var(--bgcolor-2);
+    padding: 2rem (--padding);
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.about .contener-img{
+width: 35%;
+}
+.about .contener-img img{
+width: 90%;
+}
+.about .contener-text{
+    width: 35%;
+}
+
+/*-------------------------------------------------------------------------------------
+                                    Servises section
+-------------------------------------------------------------------------------------*/
+
+.serv{
+    background-color: var(--bgcolor-1);
+   
+}
+.serv h1,.s{
+    text-align: center;
+    font-size: 3.65rem;
+    margin: 1.7rem;
+    margin-bottom: 100px;
+    margin-top: 0;
+    padding: 80px;
+}
+.box1{
+    background-color: #22282a;
+    margin: 30px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+.box2{
+    background-color: #22282a;
+    margin: 30px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 390px;
+    margin-top: -242px;
+
+}
+.box3{
+    background-color: #22282a;
+    margin: 30px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 750px;
+    margin-top: -242px;
+}
+.card{
+    padding: 70px;
+
+}
+.card h5{
+    margin-bottom: 10px;
+}
+.all-con{
+    margin-left: 150px;
+    padding-bottom: 100px;
+}
+/*-------------------------------------------------------------------------------------------
+                                    Skills section
+--------------------------------------------------------------------------------------------*/
+.skil{
+    background-color: #070607;
+}
+.skills{
+    width: 100%;
+    height: 100%;
+    
+    background-color: var(--bgcolor-2);
+    padding: 2rem (--padding);
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.skills h1{
+align-self: first baseline;
+    
+}
+
+.sk-text{
+    text-align:center;
+    color: gold;
+    width: 200px;
+    height: 150px;
+}
+.skills .contener-img{
+    width: 35%;
+    }
+    .skills .contener-img img{
+    width: 90%;
+    }
+    
+       
+    
+    .contener-sk{
+        margin-top: 10rem;
+        margin-left: -30rem;
+        width: 30%;
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .skill{
+        width: 20%;
+        height: 20%;
+        background-color: var(--bgcolor-2);
+        border-radius: 40%;
+        margin: 0 2rem 2rem 0;
+        display: flex;
+        align-items: center;
+    justify-content: center;
+    }
+    .skill {
+margin: 20px;
+transition: 0.3s;
+cursor: pointer;
+    }
+    .skill :hover{
+        transform:scale(1.1);
+    
+    }
+   /* --------------------------------------------------------------------------------------------
+                                    Footer section
+    ----------------------------------------------------------------------------------------*/
+    footer{
+        padding: 2rem var(--padding);
+        background-color: var(--secondaryColor);
+        
+    }
+    .end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+/*---------------------------------------------------------------------------
+                                  Media Qure
+----------------------------------------------------------------------------*/
+@media screen and (max-width: 575px){
+    
+}
+ 
